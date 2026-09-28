@@ -25,6 +25,12 @@ The portal allows users to:
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **[View Live Demo](https://kukatireshmitha986-create.github.io/Healthcare-Appointment-Portal/)**
+
+The project is deployed using GitHub Pages and can be accessed directly through the link above.
+
 ## 🎯 Project Objectives
 
 - To develop a responsive healthcare web portal.
