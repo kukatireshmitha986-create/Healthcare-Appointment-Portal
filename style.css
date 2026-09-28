@@ -1,0 +1,304 @@
+/* =========================================
+   HEALTHCARE APPOINTMENT & PATIENT PORTAL
+   CUSTOM CSS3
+   ========================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+    margin-left: 8px;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: white;
+}
+
+
+/* ================= HERO ================= */
+
+.hero-section {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(
+        135deg,
+        #0d6efd,
+        #0dcaf0
+    );
+
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.hero-section .btn {
+    border-radius: 30px;
+    padding: 12px 28px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.hero-section .btn:hover {
+    transform: translateY(-3px);
+}
+
+
+/* ================= SECTIONS ================= */
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    color: #0d6efd;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 3px;
+    background-color: #0d6efd;
+    bottom: 0;
+    left: 20%;
+}
+
+
+/* ================= CARDS ================= */
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 16px 20px;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+
+/* ================= FORM ================= */
+
+.form-label {
+    font-weight: 600;
+    color: #333333;
+}
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+    padding: 10px 12px;
+    transition: 0.3s;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+
+/* ================= BUTTONS ================= */
+
+.btn {
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+
+/* ================= APPOINTMENT TABLE ================= */
+
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    white-space: nowrap;
+}
+
+.table tbody tr {
+    transition: 0.2s;
+}
+
+.table tbody tr:hover {
+    transform: scale(1.005);
+}
+
+
+/* ================= HEALTH INFORMATION ================= */
+
+#health .card {
+    transition: 0.3s;
+}
+
+#health .card:hover {
+    transform: translateY(-5px);
+}
+
+#health .card-body p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+/* ================= SERVICES ================= */
+
+.service-card {
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.service-card h4 {
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: #666666;
+    line-height: 1.6;
+}
+
+
+/* ================= TECHNOLOGIES ================= */
+
+.technology-card {
+    transition: 0.3s;
+}
+
+.technology-card:hover {
+    transform: translateY(-8px);
+}
+
+.technology-card h3 {
+    color: #0d6efd;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.technology-card p {
+    color: #666666;
+    line-height: 1.6;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    margin-top: 0;
+}
+
+footer h5 {
+    font-weight: 600;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 991px) {
+
+    .navbar .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+    .hero-section {
+        min-height: 450px;
+    }
+
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .section-padding {
+        padding: 60px 15px;
+    }
+
+    .hero-section {
+        padding: 70px 15px;
+        min-height: 420px;
+    }
+
+    .hero-section h1 {
+        font-size: 1.9rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 575px) {
+
+    .hero-section h1 {
+        font-size: 1.6rem;
+    }
+
+    .hero-section .btn {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    .section-title {
+        font-size: 1.7rem;
+    }
+}
